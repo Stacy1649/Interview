@@ -1,0 +1,412 @@
+.NavBar_right li a {
+    color: #FFF;
+    font-size: 10px;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav {
+    z-index: 10000;
+    position: fixed;
+    background: #875A5A none repeat scroll 0% 0%;
+    width: 100%;
+    height: 50px;
+}
+
+.NavBars {
+	width: 30%;
+}
+
+.NavBar_right li {
+    float: right;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    margin: 0 1em 0 1em;
+    padding: 0.35em 0.75em 0.35em 0.75em;
+    border-radius: 0.5em;
+}
+
+#main-nav ul li.active {
+    background: #999;
+}
+
+#main-nav ul li.active a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropotron {
+    background: #444;
+    border-radius: 0.5em;
+    list-style: none;
+    margin: 0;
+    min-width: 10em;
+    padding: 0.75em 1em 0.75em 1em;
+}
+
+.dropotron > li {
+    border-top: solid 1px #555;
+    margin: 0;
+    padding: 0;
+}
+
+.dropotron > li:first-child {
+    border-top: 0;
+}
+
+.dropotron > li > a {
+    color: #ccc;
+    display: block;
+    padding: 0.5em 0 0.5em 0;
+    text-decoration: none;
+}
+
+.dropotron > li.active > a,
+.dropotron > li:hover > a {
+    color: #fff;
+}
+
+.dropotron.level-0 {
+    margin-top: 1.25em;
+}
+
+.dropotron.level-0:before {
+    content: '';
+    position: absolute;
+    border-bottom: solid 0.5em #444;
+    border-left: solid 0.5em transparent;
+    border-right: solid 0.5em transparent;
+    top: -0.5em;
+}
+
+
+/*.div {
+    box-sizing: border-box;
+}*/
+
+.section {
+    text-align: center;
+    color: #FFFFFF;
+    background-image: url("../img/banner.jpg");
+    color: #fff;
+    padding: 12em 0 20em 0;
+    list-style: none;
+}
+
+.button {
+    border: 1px solid #C5BDBC;
+    height: 1em;
+    line-height: 0px;
+    margin: 10px;
+    border-radius: 6px;
+    padding-top: 2px;
+}
+
+.nav li lu a {
+    text-align: center;
+}
+
+.border {
+    background: #ffffff;
+}
+
+.nav li ul li a {
+    background: #ffffff;
+}
+
+.header a {
+    text-decoration: none;
+    position: relative;
+    color: #000000;
+}
+
+.header h1 a {
+    color: #FFFFFF;
+}
+
+.section ul li a:hover {
+    background: #666666;
+}
+
+#banner h2 {
+    text-shadow: 2px 4px #707275;
+}
+
+.line {
+    display: inline-block;
+    border-top: solid 2px #CEC7C7;
+    padding: 10px 0 0 0;
+    text-align: center;
+    width: 60%;
+    height: 2px;
+}
+
+.title {
+    font-size: 3em;
+    line-height: 3em;
+    letter-spacing: -0.035em;
+    background: rgba(172, 179, 134, 0.36);
+    font-size: 50px;
+}
+
+.box {
+    background: #ffffff;
+    text-align: center;
+    margin-top: -90px;
+    border-radius: 6px;
+}
+
+.section p {
+    font-size: 25px;
+}
+
+.img {
+    padding-top: 40px;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.main {
+    top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.bg-white {
+    background: #CCCCCC;
+}
+
+
+/* OWL */
+
+.owl-carousel .item {
+    width: 300px;
+    height: 200px;
+}
+
+.owl-carousel .item img {
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.owlimg {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.About section h4,
+h5,
+h6 {
+    font-size: 18px;
+}
+
+.About {
+    background: #FFF none repeat scroll 0% 0%;
+    margin-top: 30px;
+    width: 90%;
+    border-radius: 6px;
+    margin: 30px 5% 0px 5%;
+}
+
+.like {
+    background: none repeat scroll 0% 0%;
+    display: inline-block;
+    height: 5.5em;
+    line-height: 7em;
+    margin: 0px 0px 2em;
+    width: 5.5em;
+    border-radius: 100%;
+    cursor: default;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.mark1 {
+    background: #A4C832;
+}
+
+.mark2 {
+    background: #B95545;
+}
+
+.mark3 {
+    background: #E5EA16;
+}
+
+.mark4 {
+    background: #3095B0;
+}
+
+.xline {
+    border-top: 2px solid #E5E5E5;
+    position: relative;
+    margin-top: 40px;
+    padding: 3em;
+    display: inline-block;
+}
+
+.zline {
+    padding: 3em;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.yline {
+    border-right: 2px solid #E5E5E5;
+}
+
+@media screen and (max-width: 980px) {
+    .yline {
+        border-right: 0px solid #E5E5E5;
+    }
+}
+
+.nav ul li a {
+    font-size: 15px;
+}
+
+.box header h2:hover {
+    color: #59A2BF;
+    -o-transition: color .20s linear;
+    -webkit-transition: color .20s linear;
+    -moz-transition: color .20s linear;
+    transition: color .20s linear;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.Pic_Size {
+    width: 200px;
+    height: 300px;
+}
+
+@Media (min-width: 200px) and (max-width: 500px) {
+    .Pic_Size {
+        width: 100px;
+        height: 150px;
+    }
+    .information {
+        font-size: 10px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    #banner h2{
+    	font-size: 20px;
+    }
+
+    .zline {
+    	margin-top: 0px;
+    }
+}
+
+@Media (min-width: 200px) and (max-width: 1000px) {
+    .zline {
+    	margin-top: 0px;
+    }
+}
+
+.BoldFace {
+    font-size: 2em;
+    letter-spacing: -0.035em;
+    font-weight: 700;
+}
+
+.About div {
+    padding: 0px 15% 0px 15%;
+}
+
+.About p {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.About h3 {
+        text-align: center;
+    padding-top: 20px;
+    color: rgba(143, 148, 160, 0.7);
+    text-shadow: 2px 1px rgba(208, 218, 187, 0.78);
+}
+
+.Icon-SelfIntroduction {
+    color: #C54D7E;
+}
+
+.Icon-Education {
+    color: #4745BD;
+}
+
+.Icon-Prospect {
+    color: #AFB159;
+}
+
+.Icon-Experience {
+    color: #795548;
+}
+
+.Icon-Skill {
+    color: #3F9A57;
+}
+
+.information:hover {
+    color: #59A2BF;
+    font-size: 18px;
+}
+
+.information {
+    /*font-weight: 600;*/
+    padding-bottom: 10px;
+    color: #9BA9A7;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    font-size: 15px;
+}
+
+.About i {
+    text-shadow: 2px 2px #D2D6DC;
+    font-size: 30px;
+}
+
+.About i:hover {
+    margin-left: 8px;
+}
+
+@Media (min-width: 200px) and (max-width: 500px) {
+    .nav ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 501px) {
+   .NavBars {
+   	display: none;
+   }
+}
+
+.fa-bars{
+	font-size: 25px;
+    padding: 12px;
+    color: #FFFFFF;
+}
+
+.fa-home {
+	    color: #6E8DCA;
+}
